@@ -1,7 +1,3 @@
-
-
----
-
 # 🚀 Learning React
 
 Welcome to my journey of learning **React**! This repository will document my progress, projects, and everything I learn about React—a JavaScript library for building user interfaces. 🌟
