@@ -8,10 +8,10 @@ import PropsParent from "./topics/props/PropsParent";
 function App() {
   return (
     <>
-    <StatesInFBC></StatesInFBC>
+    {/* <StatesInFBC></StatesInFBC>
     <Header/>
     <Counter></Counter>
-    <StatesInCBC></StatesInCBC>
+    <StatesInCBC></StatesInCBC> */}
     <PropsParent></PropsParent>
     </>
   )
