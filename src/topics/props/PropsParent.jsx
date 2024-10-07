@@ -5,6 +5,7 @@ import PropsChild from "./PropsChild1";
 import PropsUsers from "./PropsUsers";
 import ChildA from "./ChildA";
 import X from "./X";
+import Y from "./Y";
 //!parent to child only,for data  transfer in object form
 const PropsParent=()=>{
     let data="hello world"
@@ -32,7 +33,9 @@ const PropsParent=()=>{
             {/* <h1>Props Example</h1>
             <PropsChild data={{data,arr}}></PropsChild> */}
             {/* <PropsUsers users={users}></PropsUsers> */}
-            <ChildA  products={products}/ >
+            {/* <ChildA  products={products}/ > */}
+            <X></X>
+            <Y></Y>
         
         </div>
     )

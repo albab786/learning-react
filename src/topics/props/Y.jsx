@@ -1,12 +1,13 @@
-const Y=(prop)=>{
-    let val="BYe"
+import React from "react"
+const Y=(props)=>{
+    let val="BYE"
     function handleChanger(){
-        prop.setData(val)
+        props.setData(val)
     }
     return (
         <div>
             <p> Y Component</p>
-            <button onClick={handleChanger}></button>
+            <button onClick={handleChanger}>change</button>
         </div>
     )
 }
