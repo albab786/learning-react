@@ -1,9 +1,11 @@
-import Header from "./components/Header";
+import Header from "./topics/components/Header";
 import Counter from "./topics/states/Counter";
 import StatesInFBC from "./topics/states/StatesInFBC";
 import StatesInCBC from "./topics/states/StatesInCBC"
 import PropsParent from "./topics/props/PropsParent";
-
+import InlineCssExample from "./topics/reactCSS/InlineCssExample";
+import Button from "./topics/components/button/Button";
+import AmazonNavBar from "./topics/components/AmazonNavBar";
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
     <Header/>
     <Counter></Counter>
     <StatesInCBC></StatesInCBC> */}
-    <PropsParent></PropsParent>
+    {/* <PropsParent></PropsParent> */}
+    {/* <InlineCssExample></InlineCssExample>
+    <Button></Button> */}
+    <AmazonNavBar></AmazonNavBar>
     </>
   )
 }

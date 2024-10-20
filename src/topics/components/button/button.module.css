@@ -1,0 +1,12 @@
+#btn {
+    background-color: lightcoral;
+    color: aqua;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
